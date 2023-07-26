@@ -1,0 +1,135 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.wrapper-02 {
+    display: inline-block;
+    bottom: 160px;
+    position: relative;
+}
+
+header {
+    margin: 30px 20px;
+    display: inline-block;
+}
+
+a {
+    margin-left: 30px;
+    color: #17233D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+.button-1 {
+    margin-left: 30px;
+    border-radius: 6px;
+    width: 100px;
+    height: 41px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.img-logo {
+    margin: 100px 74px;
+    width: 559px;
+    height: 500px;
+    display: inline-block;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    /* 132.258% */
+    letter-spacing: 0.596px;
+    width: 582px;
+
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}
+
+.learn {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px) {
+    .links {
+        display: none;
+    }
+
+    .button-1 {
+        margin-left: 560px;
+        height: 200px;
+        height: 55px;
+
+    }
+
+    .wrapper-02 {
+        position: fixed;
+        top: 205px;
+        margin: 53px;
+    }
+
+    img {
+        position: relative;
+        top: 657px;
+        margin: 100px 74px;
+        width: 559px;
+        height: 500px;
+    }
+
+    p {
+        line-height: 44px;
+        color: #4B505A;
+        text-align: center;
+        font-size: 31px;
+    }
+    h1 {
+        color: #161A49;
+        text-align: center;
+    }
+.button-learn {
+    margin-left: 189px;
+    color: #6FBF44;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+}
